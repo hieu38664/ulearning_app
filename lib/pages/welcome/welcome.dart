@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({super.key});
@@ -15,8 +15,8 @@ class _WelcomeState extends State<Welcome> {
       color: Colors.white,
       child: Scaffold(
         body: Container(
-          width: 375.w,
-        ),
+            // width: 375.w,
+            ),
       ),
     );
   }
